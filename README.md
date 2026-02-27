@@ -4,8 +4,9 @@
 
 These prompts work in ChatGPT, Claude, and any LLM. Each one has been tested across 50+ real PM scenarios.
 
-**This is a free sample. The full library has 82 prompts across 12 categories.**
-**[Get the full PM Prompt Library →](https://www.news.aakashg.com/p/pm-prompt-library)**
+**These 5 cover the essentials. The full library goes much deeper: 82 prompts across 12 categories, with advanced variants, chaining techniques, and domain-specific versions for B2B, B2C, marketplace, and AI products.**
+
+**[Get the full PM Prompt Library (82 prompts) →](https://www.news.aakashg.com/p/pm-prompt-library)**
 
 ---
 
@@ -34,7 +35,7 @@ Every prompt includes:
 
 ## Want More?
 
-This is 5 of 82. The full library covers:
+These 5 prompts are fully functional — use them as-is. The full library goes significantly deeper with 82 prompts, including:
 
 - PRDs and specs
 - User research synthesis

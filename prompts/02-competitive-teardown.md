@@ -60,4 +60,4 @@ Our product: Internal knowledge management tool for mid-market companies
 
 ---
 
-*This is 1 of 82 prompts in the full library. [Get all 82 →](https://www.news.aakashg.com/p/pm-prompt-library)*
+*This prompt covers the basics. The full library version includes advanced variants, chaining patterns with other prompts, and domain-specific versions. [See all 82 prompts →](https://www.news.aakashg.com/p/pm-prompt-library)*
