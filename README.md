@@ -55,3 +55,49 @@ These 5 prompts are fully functional — use them as-is. The full library goes s
 ---
 
 Built by [Aakash Gupta](https://www.aakashg.com) | [Product Growth Newsletter](https://www.news.aakashg.com)
+
+---
+
+## Tips for Writing Better Prompts
+
+These tips apply whether you're using prompts from this library or writing your own.
+
+### 1. Set the role and audience
+
+Tell the LLM who it is and who the output is for. "You are a senior PM writing for an engineering team" produces very different output than no role at all.
+
+### 2. Be specific about format
+
+Don't say "give me a summary." Say "give me 3-5 bullet points, each under 20 words, suitable for a Slack update." The more specific your format constraint, the more usable the output.
+
+### 3. Provide context, not just instructions
+
+Bad: "Write user stories for a calendar feature."
+Good: "Write user stories for a calendar feature in a B2B project management tool. Users are mid-market teams (50-200 people). The calendar should sync with Google Calendar and show project deadlines."
+
+### 4. Use the "do / don't" pattern
+
+After your main instruction, add explicit constraints:
+- DO: use concrete metrics, cite the data I provided, flag assumptions
+- DON'T: use jargon without defining it, make up statistics, exceed 2 pages
+
+### 5. Ask for reasoning before conclusions
+
+For analytical prompts (prioritization, trade-off analysis), ask the LLM to show its reasoning before giving a recommendation. This catches flawed logic early.
+
+### 6. Iterate in the same conversation
+
+Your first prompt rarely gives a perfect result. Follow up:
+- "Make the success metrics more specific"
+- "Rewrite the problem statement with more urgency"
+- "Add a section on risks"
+
+This is faster than trying to write the perfect prompt upfront.
+
+### 7. Include examples of good output
+
+If you know what great looks like, show a snippet. LLMs pattern-match well. Even one example of the tone, depth, and format you want dramatically improves output.
+
+### 8. Use placeholders consistently
+
+Stick to `[BRACKET CAPS]` for inputs the user fills in: `[PRODUCT NAME]`, `[TARGET METRIC]`, `[TIME PERIOD]`. This makes prompts scannable and reusable.
