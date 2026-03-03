@@ -1,5 +1,8 @@
 # PM Prompt Library
 
+[![Stars](https://img.shields.io/github/stars/aakashg/pm-prompt-library?style=flat-square)](https://github.com/aakashg/pm-prompt-library/stargazers)
+[![License](https://img.shields.io/github/license/aakashg/pm-prompt-library?style=flat-square)](LICENSE)
+
 5 battle-tested AI prompts for product managers. Copy, paste, customize, ship.
 
 These prompts work in ChatGPT, Claude, and any LLM. Each one has been tested across 50+ real PM scenarios.
