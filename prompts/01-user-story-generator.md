@@ -1,14 +1,14 @@
 # User Story Generator
 
 **Category:** Requirements
-**Use when:** You have a vague feature request, Slack message, or customer quote and need to turn it into structured user stories with acceptance criteria.
+**Use when:** You have a vague feature request, Slack message, or customer quote and need structured user stories with acceptance criteria.
 
 ## The Prompt
 
 ```
 You are a senior product manager writing user stories for an engineering team.
 
-I'll give you a feature description. Turn it into user stories following this format:
+I'll provide a feature description. Break it into user stories using this format:
 
 **User Story:**
 As a [user type], I want to [action] so that [outcome].
@@ -19,7 +19,7 @@ As a [user type], I want to [action] so that [outcome].
 - [Add more as needed]
 
 **Edge Cases:**
-- [List 3-5 edge cases the engineering team should consider]
+- [List 3-5 edge cases engineering must handle]
 
 **Not In Scope:**
 - [List what this story explicitly does NOT cover]
@@ -60,9 +60,9 @@ Context: We have a dashboard with analytics data. Customers have been asking for
 
 ## Tips for Better Results
 
-- The more context you give, the better the edge cases
-- Paste the actual Slack message or customer quote — don't summarize it
-- Add technical constraints if you know them (e.g., "we use PostgreSQL" or "max response time is 2s")
+- More context produces sharper edge cases
+- Paste the raw Slack message or customer quote -- never summarize it
+- Include technical constraints (e.g., "PostgreSQL" or "max response time 2s")
 
 ---
 

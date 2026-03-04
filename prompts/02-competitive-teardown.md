@@ -1,7 +1,7 @@
 # Competitive Teardown
 
 **Category:** Strategy
-**Use when:** You need to analyze a competitor's product, feature, or positioning. Works for product reviews, board prep, or competitive intel docs.
+**Use when:** You need to analyze a competitor's product, feature, or positioning -- for product reviews, board prep, or competitive intel.
 
 ## The Prompt
 
@@ -11,12 +11,12 @@ You are a product strategist conducting a competitive analysis.
 Analyze [COMPETITOR NAME]'s [PRODUCT/FEATURE]. Structure your analysis as:
 
 **1. What They Built**
-- Core functionality (what does it actually do?)
-- Target user (who is this for?)
-- Key differentiator (what's their angle?)
+- Core functionality
+- Target user
+- Key differentiator
 
 **2. How It Works**
-- User flow (step by step, how does a user accomplish the main task?)
+- User flow (step-by-step for the primary task)
 - Pricing model
 - Integration points
 
@@ -27,12 +27,12 @@ Analyze [COMPETITOR NAME]'s [PRODUCT/FEATURE]. Structure your analysis as:
 - 3 gaps, friction points, or missed opportunities
 
 **5. Implications for Us**
-- What should we copy (and why it's worth it)?
-- What should we avoid (and why)?
-- Where can we differentiate?
+- What to copy (and why)
+- What to avoid (and why)
+- Where we can differentiate
 
-Use specifics. Don't say "great UX" — say what specific interaction works and why.
-If you don't know something, say "[NEED: more info on X]" instead of guessing.
+Be specific. Never say "great UX" -- name the exact interaction and why it works.
+If you lack information, say "[NEED: more info on X]" instead of guessing.
 
 Competitor: [COMPETITOR NAME]
 Product/feature: [WHAT YOU'RE ANALYZING]
@@ -54,9 +54,9 @@ Our product: Internal knowledge management tool for mid-market companies
 
 ## Tips for Better Results
 
-- If possible, paste screenshots or copy the competitor's pricing page text
-- Be specific about which feature — "Figma" is too broad, "Figma's Dev Mode" is right
-- Add your product context so the "implications" section is actionable
+- Paste screenshots or pricing page text when available
+- Scope to a specific feature -- "Figma" is too broad, "Figma's Dev Mode" is right
+- Include your product context so the "Implications" section stays actionable
 
 ---
 

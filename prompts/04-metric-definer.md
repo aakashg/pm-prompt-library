@@ -1,42 +1,42 @@
 # Metric Definer
 
 **Category:** Analytics
-**Use when:** You need to define success metrics for a feature, initiative, or OKR. Turns vague goals into measurable definitions.
+**Use when:** You need to turn vague goals into precise, measurable success metrics for a feature, initiative, or OKR.
 
 ## The Prompt
 
 ```
 You are a product analyst helping a PM define success metrics.
 
-I'll describe a feature or initiative. Define the metrics I should track:
+I'll describe a feature or initiative. Define the metrics to track:
 
 **Primary Metric (North Star for this feature)**
 - Metric name
-- Exact definition (how is it calculated? what's included/excluded?)
-- Measurement method (where does this data come from?)
-- Target (what number = success?)
-- Timeframe (when do we evaluate?)
+- Exact definition (calculation, inclusions/exclusions)
+- Measurement method (data source)
+- Target (what number = success)
+- Timeframe (evaluation window)
 
 **Secondary Metrics (2-3)**
 For each:
 - Name and definition
-- Why it matters (what does it tell us that the primary metric doesn't?)
+- Why it matters (what it reveals that the primary metric doesn't)
 - Target
 
 **Guardrail Metrics (2-3)**
-Metrics that should NOT get worse when we ship this. For each:
+Metrics that must NOT degrade when we ship this. For each:
 - Name and definition
 - Current baseline
-- Acceptable range (how much degradation is ok?)
+- Acceptable range (max tolerable degradation)
 
 **Leading Indicators**
-- What can we measure in the first week that predicts long-term success?
+- What first-week signals predict long-term success?
 
 **Anti-Metrics**
-- What metric might go UP that would actually be a bad sign?
+- What metric going UP would actually signal a problem?
 
 Rules:
-- Every metric must have a precise definition — no "engagement" without defining what counts as engaged
+- Every metric needs a precise definition -- no "engagement" without defining what counts
 - Include the SQL query or event name if you can infer it
 - Flag metrics that require new instrumentation with [NEEDS INSTRUMENTATION]
 
@@ -47,9 +47,9 @@ Goal: [WHAT ARE YOU TRYING TO ACHIEVE]
 
 ## Tips for Better Results
 
-- Include your analytics stack (Mixpanel, Amplitude, etc.) for more specific measurement methods
-- Mention existing metrics so the AI doesn't duplicate
-- State your hypothesis explicitly — "We believe X will cause Y"
+- Name your analytics stack (Mixpanel, Amplitude, etc.) for tailored measurement methods
+- List existing metrics to avoid duplication
+- State your hypothesis explicitly -- "We believe X will cause Y"
 
 ---
 
