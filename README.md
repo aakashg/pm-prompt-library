@@ -33,6 +33,8 @@ Every prompt includes:
 - Example input/output
 - Tips for better results
 
+*This prompt library is growing — new prompts added regularly.*
+
 ## Want More?
 
 These 5 prompts are fully functional — use them as-is. The full library goes significantly deeper with 82 prompts, including:
