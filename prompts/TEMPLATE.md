@@ -1,68 +1,52 @@
-# Prompt: [Descriptive Name]
+# [Prompt Name]
 
-> Copy this template to create a new prompt. Replace all `[BRACKETED]` sections.
-
-## Category
-
-[e.g., Strategy, User Research, PRD Writing, Prioritization, Stakeholder Communication]
-
-## Use Case
-
-[When would a PM use this prompt? What problem does it solve? Be specific.]
+**Category:** [Requirements / Strategy / Execution / Analytics / Communication / Research]
+**Use when:** [One sentence describing the specific PM situation this solves.]
 
 ## The Prompt
 
 ```
-[Your prompt goes here. Use [PLACEHOLDER] syntax for inputs the user fills in.]
+You are a [ROLE]. [ONE-LINE FRAMING OF THE TASK AND TONE.]
 
-[Example structure:]
-
-You are a [ROLE]. I need you to [TASK].
-
-Context:
-- Product: [PRODUCT NAME]
-- Target users: [USER SEGMENT]
-- Goal: [OBJECTIVE]
-
-[SPECIFIC INSTRUCTIONS]
+[CORE INSTRUCTIONS. Describe the task, the structure of the output, and any
+required sections. Be explicit about format -- headings, bullet counts, word
+limits -- because tighter constraints produce more usable output.]
 
 Format your response as:
-1. [SECTION 1]
-2. [SECTION 2]
-3. [SECTION 3]
 
-Constraints:
-- [CONSTRAINT 1]
-- [CONSTRAINT 2]
+**[SECTION 1]**
+- [What goes here]
+
+**[SECTION 2]**
+- [What goes here]
+
+Rules:
+- [Explicit constraint -- what to include]
+- [Explicit constraint -- what to avoid]
+- [Length or tone constraint]
+- Flag any assumptions with [ASSUMPTION: ...]
+
+Context:
+[PASTE THE RAW INPUT -- NOTES, QUOTES, TICKETS, ETC.]
+
+[PLACEHOLDER 1]: [WHAT THE USER FILLS IN]
+[PLACEHOLDER 2]: [WHAT THE USER FILLS IN]
 ```
 
-## Placeholders
+## Example
 
-| Placeholder | Description | Example |
-|------------|-------------|---------|
-| `[PLACEHOLDER 1]` | [What to fill in] | [Example value] |
-| `[PLACEHOLDER 2]` | [What to fill in] | [Example value] |
+**Input:**
+[Realistic example of what a user would paste in, including filled-in placeholders.]
 
-## Example Output
+**Output:** (truncated)
+> [10-20 lines of realistic output showing the expected quality, tone, and structure.]
 
-[Show a realistic snippet of what the prompt produces when filled in correctly. This helps contributors understand the expected quality bar.]
+## Tips for Better Results
 
-```
-[Paste 10-20 lines of example output here]
-```
+- [Advice for getting sharper output -- e.g. "paste raw notes instead of summarizing"]
+- [Common mistake to avoid]
+- [Suggested follow-up prompt to refine the output]
 
-## Tips
+---
 
-- [Advice for getting the best results from this prompt]
-- [Common mistakes to avoid]
-- [Suggested follow-up prompts to refine the output]
-
-## Compatibility
-
-- [x] Claude
-- [x] GPT-4
-- [ ] Other: [specify]
-
-## Author
-
-[Your name or GitHub handle]
+*This prompt covers the basics. The full library version includes advanced variants, chaining patterns with other prompts, and domain-specific versions. [See all 82 prompts →](https://www.news.aakashg.com/p/pm-prompt-library)*
